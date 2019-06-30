@@ -29,6 +29,14 @@
   name = "github.com/spf13/viper"
   version = "1.4.0"
 
+[[constraint]]
+  name = "cloud.google.com/go"
+  version = "v0.40.0"
+
+[[constraint]]
+  name = "google.golang.org/api"
+  branch = "master"
+
 [prune]
   go-tests = true
   unused-packages = true
